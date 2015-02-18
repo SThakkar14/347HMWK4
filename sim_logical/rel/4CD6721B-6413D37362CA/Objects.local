@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="0C74DE39-D5FE-C985-620E-AEDD7B6F139A" name="SIM_Person" seqName="seg_0"/>
+   <object objectType="Table" objectID="6D1C1552-1A0B-07BB-0E5A-85F18BEC6147" name="SIM_project" seqName="seg_0"/>
+   <object objectType="Table" objectID="88B0AE76-C411-9EA2-F43C-8FF20B64E3B3" name="SIM_p2p" seqName="seg_0"/>
+   <object objectType="Table" objectID="BD536909-FE6F-B1A2-1409-F938D00A828B" name="SIM_dept" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6DD6388B-411D-50FA-EA30-408B10CB29C1" name="SIM_p2p_SIM_Person_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9AF05B19-BD93-228A-107A-44FDAC7D7D75" name="SIM_project_SIM_dept_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A8547943-DFBF-C12B-8D05-927863B4A1D4" name="SIM_Person_SIM_dept_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BDFA2915-A76B-E3FC-A465-89E4A6ABFAAE" name="SIM_p2p_SIM_project_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

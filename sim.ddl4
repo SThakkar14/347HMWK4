@@ -1,0 +1,126 @@
+drop view SIM_project_emp ;
+drop view SIM_manager ;
+drop view SIM_emp ;
+
+create view SIM_emp as 
+SELECT PERSON_ID, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, HIRE_DATE, SALARY, STATUS 
+FROM SIM_Person;
+
+create or replace TRIGGER person_trigger
+     INSTEAD OF insert ON SIM_emp
+     FOR EACH ROW
+BEGIN
+     insert into SIM_Person(
+        PERSON_ID, 
+        NAME, 
+        SSNUM, 
+        GENDER, 
+        BIRTH_DATE, 
+        ADDRESS, 
+        CITY, 
+        STATE, 
+        ZIP, 
+        HIRE_DATE, 
+        SALARY, 
+        STATUS )
+     VALUES (
+        :new.PERSON_ID, 
+        :new.NAME, 
+        :new.SSNUM, 
+        :new.GENDER, 
+        :new.BIRTH_DATE, 
+        :new.ADDRESS, 
+        :new.CITY, 
+        :new.STATE, 
+        :new.ZIP, 
+        :new.HIRE_DATE, 
+        :new.SALARY, 
+        :new.STATUS  ) ;
+END;
+/
+
+create view sim_manager as 
+SELECT PERSON_ID, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, HIRE_DATE, SALARY, STATUS, TITLE, BONUS, SIM_dept_dept_id 
+FROM SIM_PERSON;
+
+create or replace TRIGGER manager_trigger
+     INSTEAD OF insert ON sim_manager
+     FOR EACH ROW
+BEGIN
+     insert into SIM_PERSON(
+        PERSON_ID, 
+        NAME, 
+        SSNUM, 
+        GENDER, 
+        BIRTH_DATE, 
+        ADDRESS, 
+        CITY, 
+        STATE, 
+        ZIP, 
+        HIRE_DATE, 
+        SALARY, 
+        STATUS, 
+        TITLE, 
+        BONUS, 
+        SIM_dept_dept_id )
+     VALUES (
+        :new.PERSON_ID,
+        :new.NAME,
+        :new.SSNUM,
+        :new.GENDER,
+        :new.BIRTH_DATE,
+        :new.ADDRESS,
+        :new.CITY,
+        :new.STATE,
+        :new.ZIP,
+        :new.HIRE_DATE,
+        :new.SALARY,
+        :new.STATUS,
+        :new.TITLE,
+        :new.BONUS,
+        :new.SIM_dept_dept_id) ;
+END;
+/
+
+create view SIM_project_emp as 
+SELECT PERSON_ID, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, HIRE_DATE, SALARY, STATUS, TITLE, RATING, SIM_DEPT_DEPT_ID
+FROM SIM_PERSON;
+
+create or replace TRIGGER employee_trigger
+     INSTEAD OF insert ON sim_project_emp
+     FOR EACH ROW
+BEGIN
+     insert into SIM_PERSON(
+        PERSON_ID, 
+        NAME, 
+        SSNUM, 
+        GENDER, 
+        BIRTH_DATE, 
+        ADDRESS, 
+        CITY, 
+        STATE, 
+        ZIP, 
+        HIRE_DATE, 
+        SALARY, 
+        STATUS,
+        TITLE,
+        RATING,
+        SIM_dept_dept_id )
+     VALUES (
+        :new.PERSON_ID,
+        :new.NAME,
+        :new.SSNUM,
+        :new.GENDER,
+        :new.BIRTH_DATE,
+        :new.ADDRESS,
+        :new.CITY,
+        :new.STATE,
+        :new.ZIP,
+        :new.HIRE_DATE,
+        :new.SALARY,
+        :new.STATUS,
+        :new.TITLE,
+        :new.RATING,
+        :new.SIM_dept_dept_id) ;
+END;
+/

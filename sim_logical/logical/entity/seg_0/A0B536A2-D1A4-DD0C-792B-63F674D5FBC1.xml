@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0B536A2-D1A4-DD0C-792B-63F674D5FBC1" name="SIM_p2p">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:27:10 UTC</createdTime>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="4CD6721B-DA9E-4CFE-EC7E-6413D37362CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="per_proj" id="6CDBBF8E-A847-B87A-0BBC-F622F6B7E426">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:27:29 UTC</createdTime>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="4CD6721B-DA9E-4CFE-EC7E-6413D37362CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="ACA523E1-1CC4-2979-FF78-5CA3DFD616DA">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:32:00 UTC</createdTime>
+<generatorID>FA3C3174-E025-AE32-43FB-CA94746D86C7</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="4CD6721B-DA9E-4CFE-EC7E-6413D37362CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>45EB143A-409D-C1B2-60D0-4917AA16D2A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="project_id" id="DC5C2648-C927-FA54-F2FE-E19BDF021DF8">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:32:14 UTC</createdTime>
+<generatorID>2312BE6B-C6F1-D45B-770C-619D8952287B</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="4CD6721B-DA9E-4CFE-EC7E-6413D37362CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6CAB02ED-8ABC-8B94-13A6-8CD917F66960</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED01833B-A4C2-11A7-F72D-E1F95DD993A1" name="{entity} PK">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:28:08 UTC</createdTime>
+<ownerDesignName>sim_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4CD6721B-DA9E-4CFE-EC7E-6413D37362CA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CDBBF8E-A847-B87A-0BBC-F622F6B7E426</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,247 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C74DE39-D5FE-C985-620E-AEDD7B6F139A" name="SIM_Person">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>14E2E2A8-C880-7940-4C75-BEADC5932252</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="2752A664-1023-BD5A-ED02-DC1264A5B376">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>45EB143A-409D-C1B2-60D0-4917AA16D2A5</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="02DF379B-4BC6-E930-925F-54D5ED7039DB">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>05CAAC30-C38B-3D46-91F9-52E3C05A6FBE</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="2C06F994-828D-A8CC-E4F4-FBC4F72DEDB8">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>63C63ACB-26B3-28C7-DEE1-B7BAE51BCA53</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="E9498A93-EE0C-21C4-1806-027D065BC9F2">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>4D5C20FF-6C16-2D20-D8B2-B240B65A56BD</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="D818D32F-2595-3807-EFDA-FFE1A15535DE">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>F181591F-D971-7D9E-0113-6F55D2886017</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="25BA8E0E-7E2E-CC4D-2C58-F72C77CC59F3">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>1D8448BD-E294-AB79-782B-395044719B3D</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="186FC0AA-A3BB-3269-CB46-9607E3143E64">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>C9138C70-66F2-CFC4-7621-1AD3436380CC</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="64228FFF-AC7A-6353-A455-C858FDD3B452">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>D0F64A39-05A6-526F-CE91-98054164BE64</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="84B858E9-2546-48FF-99DE-61D8B205F9CD">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>AE5C1F0E-9B6A-8999-150C-A732C666FA66</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="C70B9E0F-A437-8378-0E88-00A82F0B072D">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>1BD8325D-100D-44AB-FA25-C7F976FCD5A7</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="F8CCD1E6-E9C4-BB6C-F9D0-F64F102DD0F1">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>BEFF4924-3936-966D-9EB8-1BF5F9FC96D3</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="9F9004CB-C586-A41A-D698-758E1DBE7FEA">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>6CED3E09-FAEE-5AA1-82E8-4ED309F897C0</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="139C0FD4-AC09-51C5-AC97-098478E8E7C0">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>32EFD107-491B-34FC-0F37-E1A5F0E0A9DB</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="56BCFE96-1B42-FC7B-C058-181754400A74">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>023E3137-5058-1D9D-F5B9-75AB11BF3409</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="2F55B520-8753-5B7F-CB25-7D5FF10F3B7D">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>2ABDC83E-1FF5-20B1-BA42-7E71A51C46DF</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id" id="D942B787-21BA-47CF-7C26-48963F286DF0">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>2F92035E-A7A5-673D-F1BF-8D55ED042AF4</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id2" id="7B754FF8-D1C6-96BF-201D-4165101B4AF0">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>C45B211A-C7D9-D50B-F761-FB37FD4A3B2E</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8E37429C-8AEA-F6BE-57E0-41B1D7D1DB5E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8547943-DFBF-C12B-8D05-927863B4A1D4" referredColumn="8E37429C-8AEA-F6BE-57E0-41B1D7D1DB5E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E1F42E6-A79A-01AA-A19B-E76DE81EC9CC" name="SIM_Person_PK">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:37 UTC</createdTime>
+<generatorID>81DE41AA-AECF-18A2-E3A5-A2CB414804F7</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2752A664-1023-BD5A-ED02-DC1264A5B376"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3293907D-1FEC-F4E6-163F-A99CEB42746F" name="SIM_Person__IDX">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:38 UTC</createdTime>
+<ownerDesignName>sim_logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5E7CF86A-CB5F-385C-0F08-45BCDC173B02</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D942B787-21BA-47CF-7C26-48963F286DF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="295B6087-0CBD-4713-4488-1A5BDC564903" name="SIM_Person_SIM_dept_FK">
+<createdBy>Shubham</createdBy>
+<createdTime>2015-02-18 00:35:38 UTC</createdTime>
+<generatorID>7FF72DC4-DE44-038B-A858-350929555C72</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B754FF8-D1C6-96BF-201D-4165101B4AF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
